@@ -23,6 +23,10 @@ else if (b>a && b>c){
 else if (c>a && c>b){
     
     if (a>b) document.write(`Ordenados de mayor a menor: ${c}, ${a}, ${b}`);
-    else document.write(`Ordenados de mayor a menor: 55${c}, ${b}, ${a}`);
+    else document.write(`Ordenados de mayor a menor: ${c}, ${b}, ${a}`);
         
 }
+
+let palabra = prompt(`Introduzca una palabra:`);
+
+alert(`La palabra ${palabra} contiene ${palabra.length} letras`);
